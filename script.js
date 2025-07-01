@@ -6,11 +6,11 @@ const resultDiv = document.getElementById("result");
 const prizes = [
   { label: "(Kámen)", icon: "🪨" },
   { label: "(Dřevo)", icon: "🪵" },
-  { label: "(Dvakrát dřevo)", icon: "🪵🪵" },
-  { label: "(Dvakrát kámen)", icon: "🪨🪨" },
+  { label: "(2x Dřevo)", icon: "🪵🪵" },
+  { label: "(2x Kámen)", icon: "🪨🪨" },
   { label: "(Dřevo + $1)", icon: "🪵 + 💰" },
   { label: "(Kámen + $1)", icon: "🪨 + 💰" },
-  { label: "(Kámen + dřevo)", icon: "🪨 + 🪵" },
+  { label: "(Kámen + Dřevo)", icon: "🪨 + 🪵" },
   { label: "(Nic 😢)", icon: "😢" },
 ];
 
