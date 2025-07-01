@@ -4,14 +4,14 @@ const spinBtn = document.getElementById("spin");
 const resultDiv = document.getElementById("result");
 
 const prizes = [
-  { label: "Kámen", icon: "🪨" },
-  { label: "Dřevo", icon: "🪵" },
-  { label: "Dvakrát dřevo", icon: "🪵🪵" },
-  { label: "Dvakrát kámen", icon: "🪨🪨" },
-  { label: "Dřevo + $1", icon: "🪵 + 💰" },
-  { label: "Kámen + $1", icon: "🪨 + 💰" },
-  { label: "Kámen + dřevo", icon: "🪨 + 🪵" },
-  { label: "Nic 😢", icon: "😢" },
+  { label: "(Kámen)", icon: "🪨" },
+  { label: "(Dřevo)", icon: "🪵" },
+  { label: "(Dvakrát dřevo)", icon: "🪵🪵" },
+  { label: "(Dvakrát kámen)", icon: "🪨🪨" },
+  { label: "(Dřevo + $1)", icon: "🪵 + 💰" },
+  { label: "(Kámen + $1)", icon: "🪨 + 💰" },
+  { label: "(Kámen + dřevo)", icon: "🪨 + 🪵" },
+  { label: "(Nic 😢)", icon: "😢" },
 ];
 
 const colors = [
