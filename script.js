@@ -8,8 +8,8 @@ const prizes = [
   { label: "Dřevo", icon: "🪵" },
   { label: "Dvakrát dřevo", icon: "🪵🪵" },
   { label: "Dvakrát kámen", icon: "🪨🪨" },
-  { label: "Dřevo + $3", icon: "🪵 + 💰" },
-  { label: "Kámen + $3", icon: "🪨 + 💰" },
+  { label: "Dřevo + $1", icon: "🪵 + 💰" },
+  { label: "Kámen + $1", icon: "🪨 + 💰" },
   { label: "Kámen + dřevo", icon: "🪨 + 🪵" },
   { label: "Nic 😢", icon: "😢" },
 ];
