@@ -111,8 +111,8 @@ spinBtn.onclick = function () {
   resultDiv.className = "";
   let angle = currentAngle; // Začínáme z aktuální pozice
   let speed = Math.random() * 0.2 + 0.35;
-  let deceleration = 0.992 + Math.random() * 0.002;
-  let totalSpins = Math.floor(Math.random() * 4) + 8;
+  let deceleration = 0.97 + Math.random() * 0.002;
+  let totalSpins = Math.floor(Math.random() * 4) + 4;
   let spins = 0;
   let spinSoundPlayed = false;
   function animate() {
